@@ -46,7 +46,7 @@ break_of_structure,
 def greet():
     print("Hello, GitHub!")
 greet()
-
+```
 
 # tech_analysis.breadth
 
