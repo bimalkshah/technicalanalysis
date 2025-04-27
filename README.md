@@ -41,6 +41,13 @@ break_of_structure,
 
 ---
 
+
+```python
+def greet():
+    print("Hello, GitHub!")
+greet()
+
+
 # tech_analysis.breadth
 
 This module provides market breadth indicators, which are used to evaluate the overall health or trend of a financial market based on the number of advancing and declining stocks. These indicators are essential for technical analysis and can help traders understand market dynamics.
