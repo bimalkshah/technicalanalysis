@@ -140,12 +140,6 @@ Returns:
 
 List of float: SMA values for each period.
 
-Example:
-````
-data = [100, 102, 104, 105, 107, 109, 110, 112, 113, 115]
-sma_vals = sma(data, 3)
-print(sma_vals) #Output: [None, None, 102.0, 103.67, 105.33, 106.67, 108.67, 110.33, 111.33, 112.67]
-```
 6. Exponential Moving Average (EMA)
 The Exponential Moving Average (EMA) gives more weight to recent prices, making it more responsive to price changes.
 
