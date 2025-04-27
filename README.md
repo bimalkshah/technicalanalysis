@@ -38,7 +38,9 @@ break_of_structure,
 - **forecast**: 
 - **100% Pure Python**: No external packages required
 
-# Market breadth indicators assess the overall strength or weakness of the market by comparing the number of advancing and declining stocks.
+
+# Breadth 
+Market breadth indicators assess the overall strength or weakness of the market by comparing the number of advancing and declining stocks.
 
 1. Advance-Decline Line (AD Line)
 The Advance-Decline Line (AD Line) is a cumulative measure of net advancing stocks over time.
@@ -137,12 +139,12 @@ period: The number of periods for the moving average calculation.
 Returns:
 
 List of float: SMA values for each period.
+
 Example:
 ````
 data = [100, 102, 104, 105, 107, 109, 110, 112, 113, 115]
 sma_vals = sma(data, 3)
-print(sma_vals)
-# Output: [None, None, 102.0, 103.67, 105.33, 106.67, 108.67, 110.33, 111.33, 112.67]
+print(sma_vals) #Output: [None, None, 102.0, 103.67, 105.33, 106.67, 108.67, 110.33, 111.33, 112.67]
 ```
 6. Exponential Moving Average (EMA)
 The Exponential Moving Average (EMA) gives more weight to recent prices, making it more responsive to price changes.
@@ -160,8 +162,7 @@ Example:
 ```
 data = [100, 102, 104, 105, 107, 109, 110, 112, 113, 115]
 ema_vals = ema(data, 3)
-print(ema_vals)
-# Output: [100, 101.0, 102.0, 103.0, 104.0, 105.0, 106.0, 107.0, 108.0, 109.0]
+print(ema_vals) # Output: [100, 101.0, 102.0, 103.0, 104.0, 105.0, 106.0, 107.0, 108.0, 109.0]
 ```
 # Forecasting
 
